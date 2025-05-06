@@ -68,7 +68,8 @@ a.card-link {
   height: 200px;
   object-fit: cover;
   border-radius: var(--space-150);
-  margin-bottom: var(--space-300);
+  /* margin-bottom: var(--space-300); */
+  margin-bottom: 1rem;
 }
 
 .card-category {
