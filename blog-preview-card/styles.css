@@ -45,16 +45,18 @@ html {
   justify-content: center;
 }
 
-a {
+a.card-link {
   text-decoration: none;
   line-height: 0;
+  display: contents;
 }
 
 .card {
   background-color: var(--white);
   font-family: 'Figtree', arial, sans-serif;
   padding: var(--space-300);
-  width: 24rem;
+  width: min(calc(100% - var(--space-300)), 24rem);
+  margin: 0 auto;
   border: 1px solid var(--gray-950);
   border-radius: 1.25rem;
   box-shadow: .5rem .5rem 0 var(--gray-950);
@@ -62,6 +64,9 @@ a {
 }
 
 .card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
   border-radius: var(--space-150);
   margin-bottom: var(--space-300);
 }
@@ -71,7 +76,7 @@ a {
   background-color: var(--yellow);
   color: var(--gray-950);
   font-weight: var(--fw-extrabold);
-  font-size: .875rem;
+  font-size: clamp(.75rem, 1vw + .5rem, .875rem);
   padding: var(--space-50) var(--space-150);
   border-radius: var(--space-50);
   margin-bottom: var(--space-150);
@@ -80,14 +85,14 @@ a {
 .card-date {
   color: var(--gray-950);
   font-weight: var(--fw-medium);
-  font-size: .875rem;
+  font-size: clamp(.75rem, 1vw + .5rem, .875rem);
   margin-bottom: var(--space-150);
 }
 
 .card-title {
   color: var(--gray-950);
   font-weight: var(--fw-extrabold);
-  font-size: 1.5rem;
+  font-size: clamp(1.25rem, 1vw + 1rem, 1.5rem);
   margin-bottom: var(--space-150);
 }
 a:hover .card-title {
@@ -97,7 +102,7 @@ a:hover .card-title {
 .card-description {
   color: var(--gray-500);
   font-weight: var(--fw-medium);
-  font-size: 1rem;
+  font-size: clamp(.875rem, 1vw + .5rem, 1rem);
   margin-bottom: var(--space-300);
 }
 
@@ -107,7 +112,7 @@ a:hover .card-title {
   gap: var(--space-150);
   color: var(--gray-950);
   font-weight: var(--fw-extrabold);
-  font-size: .875rem;
+  font-size: clamp(.75rem, 1vw + .5rem, .875rem);
 }
 
 .card-author-img {
