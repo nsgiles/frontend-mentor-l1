@@ -1,0 +1,122 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/inter-v18-latin-regular.woff2') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./assets/fonts/inter-v18-latin-700.woff2') format('woff2');
+}
+
+:root {
+  --grey-700: #333;
+  --grey-800: #1f1f1f;
+  --grey-900: #141414;
+  --green: #c4f82a;
+  --white: #fff;
+
+  --space-50: .25rem;
+  --space-100: .5rem;
+  --space-150: .75rem;
+  --space-200: 1rem;
+  --space-300: 1.5rem;
+  --space-500: 2.5rem;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  position: fixed;
+  inset: 0;
+  background-color: var(--grey-900);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: var(--grey-800);
+  font-family: 'Inter', arial, sans-serif;
+  text-align: center;
+  padding: var(--space-500);
+  width: min(calc(100% - var(--space-300)), 24rem);
+  min-width: 15rem;
+  margin: 0 auto;
+  border-radius: var(--space-300);
+  line-height: 1.5;
+}
+
+.card-img {
+  border-radius: 99px;
+  margin-bottom: var(--space-300);
+  transform: rotate(0deg);
+  transition: transform .3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.card-img:hover {
+  transform: rotate(360deg);
+}
+
+.card-name {
+  color: var(--white);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: var(--space-50);
+}
+
+.card-location {
+  color: var(--green);
+  font-size: .875rem;
+  font-weight: 700;
+  margin-bottom: var(--space-300);
+}
+
+.card-tagline {
+  color: var(--white);
+  font-size: .875rem;
+  margin-bottom: var(--space-300);
+}
+
+.card-links-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card-links-list > li {
+  margin-bottom: var(--space-200);
+}
+
+.card-links-list > li:last-child {
+  margin-bottom: 0;
+}
+
+.card-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  background: var(--grey-700);
+  color: var(--white);
+  font-weight: 700;
+  font-size: .875rem;
+  text-decoration: none;
+  border-radius: var(--space-100);
+}
+
+.card-link:hover, .card-link:focus {
+  background-color: var(--green);
+  color: var(--grey-700);
+  border: 0;
+  outline: none;
+  box-shadow: none;
+}
