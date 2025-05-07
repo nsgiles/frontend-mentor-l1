@@ -58,7 +58,8 @@ html {
 
 .card-img {
   border-radius: 99px;
-  margin-bottom: var(--space-300);
+  /* margin-bottom: var(--space-300); */
+  margin-bottom: var(--space-200);
   transform: rotate(0deg);
   transition: transform .3s cubic-bezier(0.4, 0, 0.2, 1);
 }
