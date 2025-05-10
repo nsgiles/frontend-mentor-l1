@@ -114,6 +114,8 @@ body {
   width: 350px;
   display: flex;
   flex-direction: column;
+  border-radius: .5rem;
+  overflow: hidden;
 }
 @media(min-width: 36rem) {
   .card {
