@@ -10,3 +10,4 @@ These are my solutions to the [L1 Frontend Mentor Challenges](https://www.fronte
 - Recipe Page: [Code](https://github.com/nsgiles/frontend-mentor-l1/tree/main/recipe-page) [Demo](https://nsgiles.github.io/frontend-mentor-l1/recipe-page/)
 - Product Preview Card: [Code](https://github.com/nsgiles/frontend-mentor-l1/tree/main/product-preview-card) [Demo](https://nsgiles.github.io/frontend-mentor-l1/product-preview-card/)
 - Four Card Feature: [Code](https://github.com/nsgiles/frontend-mentor-l1/tree/main/four-card-feature) [Demo](https://nsgiles.github.io/frontend-mentor-l1/four-card-feature/)
+- Meet Landing Page: [Code](https://github.com/nsgiles/frontend-mentor-l1/tree/main/meet-landing-page) [Demo](https://nsgiles.github.io/frontend-mentor-l1/meet-landing-page/)
