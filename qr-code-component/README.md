@@ -19,8 +19,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [https://github.com/nsgiles/frontend-mentor-l1-qr-code-component](https://github.com/nsgiles/frontend-mentor-l1-qr-code-component)
-- Live Site URL: [https://nsgiles.github.io/frontend-mentor-l1-qr-code-component/](https://nsgiles.github.io/frontend-mentor-l1-qr-code-component/)
+- Solution URL: [https://github.com/ngiles1/frontend-mentor-l1-qr-code-component](https://github.com/ngiles1/frontend-mentor-l1-qr-code-component)
+- Live Site URL: [https://ngiles1.github.io/frontend-mentor-l1-qr-code-component/](https://ngiles1.github.io/frontend-mentor-l1-qr-code-component/)
 
 ## My process
 
@@ -33,4 +33,4 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Author
 
-- Frontend Mentor - [@nsgiles](https://www.frontendmentor.io/profile/nsgiles)
+- Frontend Mentor - [@ngiles1](https://www.frontendmentor.io/profile/ngiles1)
